@@ -1,0 +1,32 @@
+node_modules/
+dist/
+*.tsbuildinfo
+.env
+.cache/
+
+# Lockfiles — keep bun.lock only (Bun project)
+package-lock.json
+
+# Internal dev docs (not for public)
+TO-DO.md
+AGENTS.md
+BUILD_PLAN.md
+Bugs.md
+
+# Logs
+*.log
+
+# Local OpenCode mirror (auto-generated from packages/)
+.opencode/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Test/debug artifacts
+chunk_*
+decoded_*
+tmp_*
+.tmp-read/
+.tmp_read/
+_tmp_read/
